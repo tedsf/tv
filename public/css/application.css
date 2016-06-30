@@ -1,0 +1,22 @@
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+.footer {
+  position:fixed;
+  width:100%;
+  bottom:0px;
+  background-color: grey;
+}
+
+#copyright {
+  text-align: center;
+  height: 12px;
+}
+
+.righty {
+  text-align: right;
+}
