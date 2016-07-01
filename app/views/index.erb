@@ -1,4 +1,8 @@
-<div id="tv"><img src="/tv.jpg"></div>
+<div><img src="/tv.jpg"></div>
 <div id="picture">
-<iframe width="745" height="420" src="https://www.youtube.com/embed/YGOu-raM25k" frameborder="0" allowfullscreen></iframe>
+<div>
+  <% if session[:id] %>
+    <img id="popcorn" src="popcorn.jpg">
+    <img id="soda" src="soda.jpg">
+  <% end %>
 </div>

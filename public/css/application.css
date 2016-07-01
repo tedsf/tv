@@ -77,15 +77,24 @@ h2 {
   widows: 40px;
 }
 
-#tv{
-
-}
-
 #picture {
   position: absolute;
   left: 29px;
   top: 110px;
   width: 300px;
-  height: 200px;
+  height: 210px;
   z-index: 2;
 }
+
+#popcorn {
+  float: center;
+  height: 120px;
+  width: 120px;
+}
+
+#soda {
+  float: center;
+  height: 80px;
+  width: 120px;
+}
+
