@@ -79,6 +79,8 @@ GEM
     tilt (2.0.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    yt (0.25.39)
+      activesupport
 
 PLATFORMS
   ruby
@@ -96,6 +98,7 @@ DEPENDENCIES
   sinatra
   sinatra-contrib
   thin
+  yt (~> 0.25.6)
 
 BUNDLED WITH
    1.12.5

@@ -15,25 +15,26 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="/js/application.js"></script>
 
-  <title>Skeleton App</title>
+  <title>ted.TV</title>
 
 </head>
 <body>
-  <div class="navbar">
-    <ul>
-      <li><a class="active" href="/">Home</a></li>
+  <div class="tabbar">
+    <ul class="tabs">
+      <li><a href="/"><img id="logo" src="logo.png" ></a></li>
       <% if session[:id] %>
-        <li><a id="profile" href="/users/<%= session[:id]%>">Profile</a></li>
-        <li><a id="logout" href="/sessions/delete">Logout</a></li>
+      <li><a id="logout" href="/sessions/delete">Logout</a></li>
       <% else %>
         <li><a id="login" href="/sessions/new">Login</a></li>
-        <li><a id="signup" href="/users/new">Sign Up</a></li>
+        <li><a class="active" id="signup" href="/users/new">Sign Up</a></li>
       <% end %>
-      <span id="user-forms"></span>
     </ul>
   </div>
- <%= yield %>
+
+    <div>
+    <%= yield %>
+  </div>
 
 </body>
-<footer class="footer"><p id="copyright">Ted, All Rights Reserved</p></footer>
+<footer class="footer"><p id="copyright">ted.TV, Few Rights Reserved</p></footer>
 </html>

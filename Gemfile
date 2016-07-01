@@ -20,6 +20,7 @@ gem 'pry-byebug'
 
 gem 'shotgun'
 gem 'faker'
+gem 'yt', '~> 0.25.6'
 
 group :test do
   gem 'rspec'

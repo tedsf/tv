@@ -17,6 +17,75 @@
   height: 12px;
 }
 
-.righty {
-  text-align: right;
+.tab-content {
+    display: none;
+    /*background-color: black;*/
+}
+
+.tabs {
+    float: left;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 16px;
+    list-style: none;
+}
+.tabs li {
+    float: left;
+    margin-right: 16px;
+    padding: 10px 15px;
+    height: 35px;
+    line-height: 30px;
+}
+.tabs li a {
+    color: #666;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    margin: 20px auto;
+    width: auto;
+}
+
+p {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+h1, h2, h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 48px;
+}
+
+#logo {
+  padding-top: -20px;
+  height: 40px;
+  widows: 40px;
+}
+
+#tv{
+
+}
+
+#picture {
+  position: absolute;
+  left: 29px;
+  top: 110px;
+  width: 300px;
+  height: 200px;
+  z-index: 2;
 }
